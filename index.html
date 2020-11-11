@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra Nam Nhuan</title>
+</head>
+<body>
+<script>
+    let namnhuan= parseInt(prompt('Nhap so nam ban muon kiem tra:'));
+    if (namnhuan%400 ==0){
+        alert('Day la nam nhuan')
+    }
+    else if(namnhuan%4 ==0 && namnhuan%100 !=0 ){
+        alert('Day la 1 nam nhuan')
+    }else {
+        alert('Khong phai la nam nhuan')
+    }
+
+</script>
+
+</body>
+</html>
